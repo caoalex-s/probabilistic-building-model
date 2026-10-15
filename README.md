@@ -2,7 +2,7 @@
 
 Reference implementation accompanying the *Structural Safety* paper
 **[Probabilistic modelling of buildings as networks](https://doi.org/10.1016/j.strusafe.2026.102783)**.
-Version **1.0.0** implements the stationary model: a building is represented as
+Version **1.0.0** implements the following: a building is represented as
 a network of compartments, and simulations estimate how an initial failure can
 spread through that network.
 
