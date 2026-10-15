@@ -292,6 +292,7 @@ additional condition of the MIT license.
 > Cao, A. S., & Kumalic, A. (2026). *Probabilistic Building Model*
 > (version 1.0.0) [Computer software].
 > [GitHub repository](https://github.com/caoalex-s/probabilistic-building-model/tree/v1.0.0).
+> [Zenodo repository](https://doi.org/10.5281/zenodo.23405412)
 
 Until a release DOI is available, include the version and full commit identifier
 used. Obtain it from `git rev-parse HEAD` in your checkout.
