@@ -1,0 +1,81 @@
+"""Post-processing APIs."""
+
+from .percolation_threshold import (
+    AxisScanMetadata,
+    PercolationThresholdResult,
+    SensitivityDiagnostics,
+    ThresholdFitDiagnostics,
+    estimate_percolation_threshold,
+)
+from .risk_equivalence import (
+    AnalyticalRiskEquivalenceResult,
+    NumericalRiskEquivalenceResult,
+    RegularLatticeDegreeDistribution,
+    RiskEquivalenceCurve,
+    RiskEquivalenceResult,
+    analyze_risk_equivalence,
+    estimate_analytical_risk_equivalence,
+    estimate_numerical_risk_equivalence,
+    expected_no_propagation,
+    regular_lattice_degree_counts,
+    regular_lattice_degree_distribution,
+)
+from .robustness import (
+    BernoulliRobustnessResult,
+    DamageScenarioRobustnessResult,
+    DerivativeRootDiagnostics,
+    EntropyRobustnessThresholds,
+    RobustnessCoherenceError,
+    adverse_probability_from_pmf,
+    bernoulli_kl_robustness,
+    entropy_robustness_thresholds,
+    evaluate_damage_scenario_robustness,
+)
+from .robustness_plots import (
+    MacrostateRobustnessAnalysis,
+    RobustnessCampaignResult,
+    RobustnessPairingError,
+    analyze_entropy_robustness_campaign,
+    plot_entropy_robustness_index,
+)
+from .run_selection import (
+    CompatibleRunNotFoundError,
+    RiskEquivalenceRunSelection,
+    select_latest_compatible_xyz_run,
+)
+
+__all__ = [
+    "AnalyticalRiskEquivalenceResult",
+    "AxisScanMetadata",
+    "BernoulliRobustnessResult",
+    "CompatibleRunNotFoundError",
+    "DamageScenarioRobustnessResult",
+    "DerivativeRootDiagnostics",
+    "EntropyRobustnessThresholds",
+    "MacrostateRobustnessAnalysis",
+    "NumericalRiskEquivalenceResult",
+    "PercolationThresholdResult",
+    "RegularLatticeDegreeDistribution",
+    "RiskEquivalenceCurve",
+    "RiskEquivalenceResult",
+    "RiskEquivalenceRunSelection",
+    "RobustnessCampaignResult",
+    "RobustnessCoherenceError",
+    "RobustnessPairingError",
+    "SensitivityDiagnostics",
+    "ThresholdFitDiagnostics",
+    "adverse_probability_from_pmf",
+    "analyze_risk_equivalence",
+    "analyze_entropy_robustness_campaign",
+    "bernoulli_kl_robustness",
+    "entropy_robustness_thresholds",
+    "estimate_analytical_risk_equivalence",
+    "estimate_numerical_risk_equivalence",
+    "estimate_percolation_threshold",
+    "evaluate_damage_scenario_robustness",
+    "expected_no_propagation",
+    "plot_entropy_robustness_index",
+    "regular_lattice_degree_counts",
+    "regular_lattice_degree_distribution",
+    "select_latest_compatible_xyz_run",
+]

@@ -1,0 +1,3 @@
+# Saved scientific evidence is hashed byte for byte. Preserve its original
+# bytes across operating systems rather than applying line-ending conversion.
+/reproduction/data/*.json -text whitespace=cr-at-eol

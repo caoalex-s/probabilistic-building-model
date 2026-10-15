@@ -1,0 +1,118 @@
+{
+  "source_commit": "71c774ec89f68ca732626e262a782560bf561952",
+  "artifact_hashes_verified": true,
+  "figure3": [
+    {
+      "case": 1,
+      "threshold": 0.6690391570319392,
+      "retained_threshold": 0.6715067913761678,
+      "pmf_bins_verified": 2665,
+      "independent_bins_verified": 390,
+      "stability_passed": true
+    },
+    {
+      "case": 2,
+      "threshold": 0.5798612227527965,
+      "retained_threshold": 0.5861447320461967,
+      "pmf_bins_verified": 2665,
+      "independent_bins_verified": 390,
+      "stability_passed": true
+    },
+    {
+      "case": 3,
+      "threshold": 0.08817829988049808,
+      "retained_threshold": 0.0917289988064552,
+      "pmf_bins_verified": 6565,
+      "independent_bins_verified": 455,
+      "stability_passed": true
+    }
+  ],
+  "damage": [
+    {
+      "pe": 0.67,
+      "s_lim": 2,
+      "robustness": [
+        0.037682150884314945,
+        0.012509913600623099,
+        0.0042399032985367254
+      ]
+    },
+    {
+      "pe": 0.67,
+      "s_lim": 16,
+      "robustness": [
+        0.04859893937585263,
+        0.018671404108170517,
+        0.005723758212155241
+      ]
+    },
+    {
+      "pe": 0.4,
+      "s_lim": 2,
+      "robustness": [
+        0.22349654696995172,
+        0.1348116731296641,
+        0.08110426034687136
+      ]
+    },
+    {
+      "pe": 0.4,
+      "s_lim": 16,
+      "robustness": [
+        0.4760790170175024,
+        0.3694349195894101,
+        0.2602192077801057
+      ]
+    },
+    {
+      "pe": 0.2,
+      "s_lim": 2,
+      "robustness": [
+        0.5216169140341789,
+        0.4181410764819043,
+        0.3343677873714071
+      ]
+    },
+    {
+      "pe": 0.2,
+      "s_lim": 16,
+      "robustness": [
+        0.9856479737347281,
+        0.9777569361779018,
+        0.9648611168088415
+      ]
+    },
+    {
+      "pe": 0.094,
+      "s_lim": 2,
+      "robustness": [
+        0.7497037708003592,
+        0.6800832787481971,
+        0.616486263602555
+      ]
+    },
+    {
+      "pe": 0.0927,
+      "s_lim": 2,
+      "robustness": [
+        0.7528214857266864,
+        0.6838559726763548,
+        0.6207872987851698
+      ]
+    }
+  ],
+  "risk": {
+    "numerical": 0.09352167732764748,
+    "analytical": 0.09386757997141897,
+    "bracket": [
+      0.09,
+      0.095
+    ],
+    "nominal_monte_carlo_interval": [
+      0.09225299326734238,
+      0.09482040532710304
+    ],
+    "plausibility_passed": true
+  },
+  "all_checks_passed": true
+}

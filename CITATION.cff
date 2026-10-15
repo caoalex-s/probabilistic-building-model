@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "Please cite both the software version used and the associated paper. This scholarly request is separate from the MIT license terms."
+title: "Probabilistic Building Model"
+type: software
+version: 1.0.0
+date-released: "2026-10-16"
+abstract: >-
+  Reference implementation of the stationary probabilistic building model
+  associated with Probabilistic modelling of buildings as networks. The package
+  provides Monte Carlo collapse-size distributions, percolation threshold and
+  risk-equivalence analysis, and entropy-based robustness under notional damage.
+  It includes portable reproduction commands, saved scientific counts and figures.
+keywords:
+  - probabilistic building model
+  - stationary model
+  - structural robustness
+  - failure propagation
+  - Monte Carlo simulation
+license: MIT
+repository-code: "https://github.com/caoalex-s/probabilistic-building-model"
+url: "https://github.com/caoalex-s/probabilistic-building-model"
+authors:
+  - family-names: Cao
+    given-names: Alex Sixie
+    orcid: "https://orcid.org/0000-0002-8455-5892"
+    email: alex.caosx@ntu.edu.sg
+  - family-names: Kumalic
+    given-names: Asim
+preferred-citation:
+  type: article
+  title: "Probabilistic modelling of buildings as networks"
+  authors:
+    - family-names: Cao
+      given-names: Alex Sixie
+      orcid: "https://orcid.org/0000-0002-8455-5892"
+    - family-names: Kumalic
+      given-names: Asim
+    - family-names: Thöns
+      given-names: Sebastian
+  journal: "Structural Safety"
+  year: 2026
+  doi: "10.1016/j.strusafe.2026.102783"
+  url: "https://doi.org/10.1016/j.strusafe.2026.102783"
+  notes: "Article 102783."

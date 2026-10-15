@@ -1,0 +1,11 @@
+{
+  "data/damage.json": "87ec53a76ce2b2e39686c9a35338bf1e0f5ac2dd793e9af99f4cf14bc0c6b7fd",
+  "data/figure3.json": "caeb7ab5bc945202f6c44138bccb5320342114ad7e9c2a623a239f0d8cd446c4",
+  "data/provenance.json": "52ffc1972fa7dc3eed73f2d5c4a5d693a014e6f6b30925f34e2906f472bca13e",
+  "data/risk.json": "0ea91fe2977c6984d513cddad6d5e54a09f3888eefd126a4279ba308fd3d0d5b",
+  "figures/Figure-3-reduced.pdf": "f085526d9abbfbe2712acfc7b5af1929816f6dfd4ba4088f1fef6b5a75a0cd0f",
+  "figures/Figure-4.pdf": "50013b81adfefccce168443b6895a7e7db15de64c7b9c5dd111464e4e6729603",
+  "figures/Figure-5.pdf": "7592ce0376dbbdfb04528f57068c683001a99dbcadb468cf9e2d5c2a0cd668ac",
+  "figures/Validation-diagnostics.pdf": "0f90da1f99350f9d716aa48e83d4f4155cb859e0662dc12e962ae1d60a3a4189",
+  "data/validation.json": "c9f0adb8319e933ecb4e65fb7adcb00535dc6b1211efcac0ff65782aa6280786"
+}

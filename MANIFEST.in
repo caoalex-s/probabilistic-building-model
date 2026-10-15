@@ -1,0 +1,12 @@
+include CITATION.cff AUTHORS.md CHANGELOG.md requirements-paper.txt
+include .gitattributes
+include .github/workflows/validation.yml
+recursive-include docs *.md
+recursive-include notebooks *.ipynb
+recursive-include tests *.py *.json
+recursive-include scripts *.py
+recursive-include reproduction *.md *.json *.pdf
+prune tests/output
+prune notebooks/.ipynb_checkpoints
+prune docs/_build
+global-exclude __pycache__ *.py[cod]

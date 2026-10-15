@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "probabilistic-building-model"
+dynamic = ["version"]
+description = "Stationary network model of failure propagation and progressive collapse in buildings"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    {name = "Alex Sixie Cao"},
+    {name = "Asim Kumalic"},
+]
+dependencies = [
+    "numpy>=1.26,<3",
+    "scipy>=1.11,<2",
+    "matplotlib>=3.8,<4",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "build>=1,<2"]
+paper = ["jupyterlab>=4,<5", "nbconvert>=7,<8", "cmcrameri>=1.9,<2", "pandas>=2.2,<4"]
+
+[project.scripts]
+pbm-build = "pbm.network.builder:main"
+pbm-simulate = "cli.cli_simulation:main"
+pbm-postprocess = "cli.cli_post_processing:main"
+
+[project.urls]
+Repository = "https://github.com/caoalex-s/probabilistic-building-model"
+Paper = "https://doi.org/10.1016/j.strusafe.2026.102783"
+
+[tool.setuptools.dynamic]
+version = {attr = "pbm.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["pbm*", "cli*"]
+
+[tool.setuptools.package-data]
+"pbm.resources.sql" = ["*.sql"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "scientific: reduced scientific model and manuscript-data regressions",
+    "publication: opt-in higher-sample checks (not full figure reproduction)",
+]
