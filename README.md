@@ -1,4 +1,4 @@
-# Probabilistic Building Model
+# Probabilistic Building Model -- PBMpy
 
 Reference implementation accompanying the *Structural Safety* paper
 **[Probabilistic modelling of buildings as networks](https://doi.org/10.1016/j.strusafe.2026.102783)**.
